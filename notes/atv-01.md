@@ -28,6 +28,21 @@ Passar uma função como parametro para outra função.
 
 ![cat](https://64.media.tumblr.com/7c6415290c7758a772c1b8fec1ecfced/tumblr_p7tbi4flo01qbwtexo4_400.gifv)
 
-- Não sei viver sem o null. 
-- Maybe/Talvez 
+- Não sei viver sem o null;
+- Maybe/Talvez;
+- a caixa pode está vázia ou não;
+- uso a função **map()** eu posso abrir a caixa e ver o valor.
+- Não sei explicar, mas para mim parece um null com outro nome, mas não sei tanto do null.
 
+### Monads
+
+  **Sou obediente e não vou pesquisar**
+
+### Linguagens 
+
+- Clojure
+- Elixir 
+- Haskel
+- Elm
+
+# Programação Funcional 101
