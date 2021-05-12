@@ -26,7 +26,7 @@ Passar uma função como parametro para outra função.
 
 ## Funtores | Mapeáveis | "Caixinhas"
 
-!(cat)[https://64.media.tumblr.com/7c6415290c7758a772c1b8fec1ecfced/tumblr_p7tbi4flo01qbwtexo4_400.gifv]
+![cat](https://64.media.tumblr.com/7c6415290c7758a772c1b8fec1ecfced/tumblr_p7tbi4flo01qbwtexo4_400.gifv)
 
 - Não sei viver sem o null. 
 - Maybe/Talvez 
