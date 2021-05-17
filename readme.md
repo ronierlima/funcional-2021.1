@@ -7,5 +7,5 @@
 
 Atividade | Status | Path
 :------:|:------:|:------:
-[#1](/atividades/#1) | [x] Concluída | [/atividades/#1](/atividades/#1)
-[#2](/atividades/#2) | [x] Concluída | [/atividades/#2](/atividades/#2d)
+[#1](/atividades/#1) | ![/atividades/#1](https://img.shields.io/badge/-100%25-green) | [/atividades/#1](/atividades/#1)
+[#2](/atividades/#2) | ![/atividades/#1](https://img.shields.io/badge/-100%25-green) | [/atividades/#2](/atividades/#2d)
