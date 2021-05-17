@@ -1,15 +1,18 @@
-let r;
+//A variável "result" está escrita assim sem por exemplo um console.log 
+//por que estou usando a extensão Quokka.js
+
+let result;
 
 const pri = a => _ => a;
 const ult = _ => b => b;
 const troca = f => a => b => f(b)(a);
 
-r = pri(1)(3);
-r
-r = ult(1)(3);
-r
-r = troca(pri)(1)(7)
-r
+result = pri(1)(3);
+result
+result = ult(1)(3);
+result
+result = troca(pri)(1)(7)
+result
 
 const T = pri;
 const F = ult;
@@ -22,24 +25,24 @@ F.inspect = () => 'Falso';
 //NOT
 const NOT = a => a(F)(T);
 
-r = NOT(T);
-r
+result = NOT(T);
+result
 
-r = NOT(F);
-r
+result = NOT(F);
+result
 
 const AND = a => b => a(b)(F);
 
-r = AND(T)(T);
-r
+result = AND(T)(T);
+result
 
 const OR = a => b => a(T)(b);
 
-r = OR(F)(F);
-r
+result = OR(F)(F);
+result
 
 //OPERATIONS
 
 const square = a => a ** 2;
-r = square(3);
-r
+result = square(3);
+result
