@@ -1,7 +1,14 @@
-# Programação Funcional 101
-- [x] [Vídeo](https://www.youtube.com/watch?v=GxnbUqPwuKw);
+<p align="center">
+  <img src="https://i.imgur.com/5SjnBMR.png" align="center" alt="Cabeçalho" />
+  <h2 align="center">Programação Funcional - UFC - 2021.1</h2>
+</p>
 
-## O básico
+
+### Programação Funcional 101 ![100% - Concluída](https://img.shields.io/badge/-ok-green) 
+
+- [Vídeo](https://www.youtube.com/watch?v=GxnbUqPwuKw);
+
+### O básico
 
 - A base da Programação Funcional(**PF**) são funções matemáticas: **f(x) = x + 1**;
 
@@ -11,20 +18,20 @@
   - :x: Objetos
   - :x: Métodos
 
-## Sem mutabilidade;
+### Sem mutabilidade;
   - Se preciso alterar algo, crio uma nova versão com a atualização.
 
-## Funções de Alta Ordem
+### Funções de Alta Ordem
 
 Passar uma função como parametro para outra função.
 
-## Funções Puras
+### Funções Puras
 
 - Uma função que não altera estado, sempre vai ter o retorno para os mesmo parâmetros.
 
 - Não pode acontecer efeitos colaterais.
 
-## Funtores | Mapeáveis | "Caixinhas"
+### Funtores | Mapeáveis | "Caixinhas"
 
 ![cat](https://64.media.tumblr.com/7c6415290c7758a772c1b8fec1ecfced/tumblr_p7tbi4flo01qbwtexo4_400.gifv)
 
@@ -44,5 +51,3 @@ Passar uma função como parametro para outra função.
 - Elixir 
 - Haskel
 - Elm
-
-# Programação Funcional 101
