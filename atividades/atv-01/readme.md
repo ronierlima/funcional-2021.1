@@ -58,4 +58,4 @@ Passar uma função como parametro para outra função.
 
 #### ![100% - Concluída](https://img.shields.io/badge/-ok-green) **[Medium]** - [Programação funcional para iniciantes](https://medium.com/trainingcenter/programa%C3%A7%C3%A3o-funcional-para-iniciantes-9e2beddb5b43)
 
-#### ![100% - Concluída](https://img.shields.io/badge/-ok-green) **[GitHub]** - [Programação funcional](https://github.com/JohnAnon9771/Concepts-fundamentals/tree/main/functional-programming) por: @JohnAnon9771
+#### ![100% - Concluída](https://img.shields.io/badge/-ok-green) **[GitHub]** - [Programação funcional](https://github.com/JohnAnon9771/Concepts-fundamentals/tree/main/functional-programming), por: [@JohnAnon9771](https://github.com/JohnAnon9771)
