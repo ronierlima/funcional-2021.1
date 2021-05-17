@@ -5,6 +5,7 @@
 
 ## Atividades
 
-- **#1** - Pesquisar sobre as principais características das linguagens funcionais, fazer um resumo sobre o que você achou mais interessante.
-- **#2** - Assista ao vídeo sobre introdução ao cálculo lambda, faça o código junto com o vídeo.
-
+Atividade | Status | Path
+:------:|:------:|:------:
+[#1](/atividades/#1) | [x] Concluída | [/atividades/#1](/atividades/#1)
+[#2](/atividades/#2) | [x] Concluída | [/atividades/#2](/atividades/#2d)
