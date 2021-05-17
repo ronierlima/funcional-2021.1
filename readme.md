@@ -7,5 +7,5 @@
 
 Atividade | Status | Path
 :------:|:------:|:------:
-[#1](/atividades/%231) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | [/atividades/#1](/atividades/%231)
-[#2](/atividades/%232) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | [/atividades/#2](/atividades/%232)
+[#1](/atividades/atv-01) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | [/atividades/#1](/atividades/atv-01)
+[#2](/atividades/atv-02) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | [/atividades/#2](/atividades/atv-02)
