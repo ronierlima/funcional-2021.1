@@ -3,7 +3,6 @@
   <h2 align="center">Programação Funcional - UFC - 2021.1</h2>
 </p>
 
-
 ## Programação Funcional 101 ![100% - Concluída](https://img.shields.io/badge/-ok-green) 
 
 - [Vídeo](https://www.youtube.com/watch?v=GxnbUqPwuKw);
