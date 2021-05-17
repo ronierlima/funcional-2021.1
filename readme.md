@@ -1,3 +1,3 @@
 # Programação Funcional - UFC - 2021.1
 
-![https://imgur.com/a/lomJVFk](https://imgur.com/a/lomJVFk)
+![cabeçalho](https://i.imgur.com/5SjnBMR.png)
