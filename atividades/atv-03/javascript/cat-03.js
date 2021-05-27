@@ -60,3 +60,6 @@ const min3 = (a) => (b) => (c) => {
   if (b < a && b < c) return b;
   return c;
 };
+
+result = min3(1)(3)(3);
+result;
