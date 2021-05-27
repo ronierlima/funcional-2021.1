@@ -12,7 +12,7 @@
 #### 03 - Aquecimento
 
 id | function | haskell | javascript
-:------:| ------ |:------:
+:------:| ------ |:------:|:------:
 [@000](https://github.com/senapk/funcional_arcade/blob/master/base/000/Readme.md) | soma2 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
 [@002](https://github.com/senapk/funcional_arcade/blob/master/base/002/Readme.md) | iguais | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
 [@004](https://github.com/senapk/funcional_arcade/blob/master/base/004/Readme.md) | countNeg | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
