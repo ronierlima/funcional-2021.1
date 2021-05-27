@@ -11,16 +11,16 @@
 
 #### 03 - Aquecimento
 
-id | function | status
+id | function | haskell | javascript
 :------:| ------ |:------:
-[@000](https://github.com/senapk/funcional_arcade/blob/master/base/000/Readme.md) | soma2 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@002](https://github.com/senapk/funcional_arcade/blob/master/base/002/Readme.md) | iguais | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@004](https://github.com/senapk/funcional_arcade/blob/master/base/004/Readme.md) | countNeg | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@005](https://github.com/senapk/funcional_arcade/blob/master/base/005/Readme.md) | final | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@006](https://github.com/senapk/funcional_arcade/blob/master/base/006/Readme.md) | interior | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@008](https://github.com/senapk/funcional_arcade/blob/master/base/008/Readme.md) | gangorra | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@010](https://github.com/senapk/funcional_arcade/blob/master/base/010/Readme.md) | min2 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@011](https://github.com/senapk/funcional_arcade/blob/master/base/011/Readme.md) | min3 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@000](https://github.com/senapk/funcional_arcade/blob/master/base/000/Readme.md) | soma2 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@002](https://github.com/senapk/funcional_arcade/blob/master/base/002/Readme.md) | iguais | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@004](https://github.com/senapk/funcional_arcade/blob/master/base/004/Readme.md) | countNeg | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@005](https://github.com/senapk/funcional_arcade/blob/master/base/005/Readme.md) | final | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@006](https://github.com/senapk/funcional_arcade/blob/master/base/006/Readme.md) | interior | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@008](https://github.com/senapk/funcional_arcade/blob/master/base/008/Readme.md) | gangorra | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@010](https://github.com/senapk/funcional_arcade/blob/master/base/010/Readme.md) | min2 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@011](https://github.com/senapk/funcional_arcade/blob/master/base/011/Readme.md) | min3 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
 ---
 
 #### 04 - Operações básicas
