@@ -45,7 +45,6 @@ elemento indice xs = buscaRecursiva i xs
       | otherwise = indice
 
 -- @015 pertence
-
 --Opção 1
 -- pertence :: Integer -> [Integer] -> Bool
 -- pertence = elem
@@ -54,13 +53,34 @@ elemento indice xs = buscaRecursiva i xs
 -- pertence n = not. null. filter (== n)
 -- pertence n xs = not. null $ [n | x <- xs, x == n]
 
+--Opção 3
 pertence n [] = False
-pertence n (x:xs) = n == x || pertence n xs 
-
+pertence n (x : xs) = n == x || pertence n xs
 
 -- @016 total
+--Caso 1
+--total = sum . map (\_ -> 1)
+
+--Caso 2 - recursão
+--total [] = 0
+--total (x:xs) =  1 + total xs
+
+--Caso 3 - foldr
+total :: [Integer] -> Int
+total = foldr (const (1 +)) 0
+
 -- @017 maior
+maior [x] = x
+maior (x:xs) = if x > resto then x else resto
+  where
+    resto = maior xs
+
 -- @023 corpo
+
+corpo [] = []
+corpo [x] = []
+corpo (x:xs) = x:(corpo xs)
+
 -- @028 divide
 -- @030 uniao
 -- @031 intersec - intercessão entre listas
