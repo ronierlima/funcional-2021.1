@@ -1,8 +1,3 @@
--- @007 somaImpares
-
---somaImpares xs = sum [x | x <- xs, odd x]
-somaImpares = sum . filter odd
-
 -- @001 max3
 
 -- max3 a b c
@@ -13,6 +8,17 @@ somaImpares = sum . filter odd
 --max3 a b c = max a $ max b c
 
 max3 a b c = maximum [a, b, c]
+
+-- @007 somaImpares
+
+--somaImpares xs = sum [x | x <- xs, odd x]
+somaImpares = sum . filter odd
+
+-- @009 sublist
+sublist ini fim xs =
+  let ini' = if ini >= 0 then ini else ini + length xs
+      fim' = if fim >= 0 then fim else fim + length xs
+   in drop ini' . take fim' $ xs
 
 -- @012 fatorial
 
@@ -96,12 +102,6 @@ intersec xs ys = [y | y <- ys, y `elem` xs]
 
 -- @047 splitints
 splitints xs = ([x | x <- xs, odd x], [y | y <- xs, even y])
-
--- @009 sublist
-sublist ini fim xs =
-  let ini' = if ini >= 0 then ini else ini + length xs
-      fim' = if fim >= 0 then fim else fim + length xs
-   in drop ini' . take fim' $ xs
 
 -- @051 paridade
 
