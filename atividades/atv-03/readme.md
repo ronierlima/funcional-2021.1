@@ -28,8 +28,8 @@ Operações em listas, Comprehension list, Where, Guards
 
 id | function | ![](https://simpleicons.org/icons/haskell.svg) | ![](https://simpleicons.org/icons/javascript.svg)
 :------:| ------ |:------:|:------:
-[@001](https://github.com/senapk/funcional_arcade/blob/master/base/001/Readme.md) | max3 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
-[@007](https://github.com/senapk/funcional_arcade/blob/master/base/007/Readme.md) | somaImpares | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@001](https://github.com/senapk/funcional_arcade/blob/master/base/001/Readme.md) | max3 | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
+[@007](https://github.com/senapk/funcional_arcade/blob/master/base/007/Readme.md) | somaImpares | ![100% - Concluída](https://img.shields.io/badge/-100%25-green) | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
 [@009](https://github.com/senapk/funcional_arcade/blob/master/base/009/Readme.md) | sublist |![100% - Concluída](https://img.shields.io/badge/-100%25-green)
 [@012](https://github.com/senapk/funcional_arcade/blob/master/base/012/Readme.md) | fatorial | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
 [@014](https://github.com/senapk/funcional_arcade/blob/master/base/014/Readme.md) | elemento | ![100% - Concluída](https://img.shields.io/badge/-100%25-green)
