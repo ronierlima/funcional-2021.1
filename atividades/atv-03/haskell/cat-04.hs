@@ -71,21 +71,59 @@ total = foldr (const (1 +)) 0
 
 -- @017 maior
 maior [x] = x
-maior (x:xs) = if x > resto then x else resto
+maior (x : xs) = if x > resto then x else resto
   where
     resto = maior xs
 
 -- @023 corpo
 
-corpo [] = []
-corpo [x] = []
-corpo (x:xs) = x:(corpo xs)
+--corpo = tail
+--corpo (x:xs) = xs
+corpo (_ : xs) = xs
+corpo [] = error "corpo: lista vazia"
 
 -- @028 divide
+--divide xs n = (take n xs, drop n xs)
+divide xs n = splitAt n xs
+
 -- @030 uniao
+
+uniao xs ys = xs ++ [y | y <- ys, y `notElem` xs]
+
 -- @031 intersec - intercessão entre listas
+
+intersec xs ys = [y | y <- ys, y `elem` xs]
+
 -- @047 splitints
+splitints xs = ([x | x <- xs, odd x], [y | y <- xs, even y])
+
 -- @009 sublist
+sublist ini fim xs =
+  let ini' = if ini >= 0 then ini else ini + length xs
+      fim' = if fim >= 0 then fim else fim + length xs
+   in drop ini' . take fim' $ xs
+
 -- @051 paridade
+
+paridade [] = False
+paridade xs = positivos == negativos
+  where
+    positivos = length (filter (== True) xs)
+    negativos = length (filter (== False) xs)
+
 -- @054 swap - trocando dois elementos de uma lista
+-- Essa nn consegui fazer só
+swaping xs i j = esquerda ++ [elemJ] ++ meio ++ [elemI] ++ direita
+  where
+    elemI = xs !! i
+    elemJ = xs !! j
+    esquerda = take i xs
+    meio = take (j - i - 1) (drop (i + 1) xs)
+    direita = drop (j + 1) xs
+
+swap xs i j = if (i <= tam) && (j <= tam) then swaping xs i j else xs
+  where
+    tam = length xs
+
 -- @063 euler1 - soma dos múltiplos de 3 e 5
+euler1 n = [x | x <- [1 .. n-1], (x `mod` 3 == 0) || (x `mod` 5 == 0)]
