@@ -105,11 +105,17 @@ splitints xs = ([x | x <- xs, odd x], [y | y <- xs, even y])
 
 -- @051 paridade
 
-paridade [] = False
-paridade xs = positivos == negativos
+-- Eu tinha achado que era pra retornar true se tivessem o mesmo numero de falses e trues
+-- paridade [] = False
+-- paridade xs = positivos == negativos
+--   where
+--     positivos = length (filter (== True) xs)
+--     negativos = length (filter (== False) xs)
+
+paridade xs = odd positivos 
   where
     positivos = length (filter (== True) xs)
-    negativos = length (filter (== False) xs)
+
 
 -- @054 swap - trocando dois elementos de uma lista
 -- Essa nn consegui fazer só
@@ -126,4 +132,4 @@ swap xs i j = if (i <= tam) && (j <= tam) then swaping xs i j else xs
     tam = length xs
 
 -- @063 euler1 - soma dos múltiplos de 3 e 5
-euler1 n = [x | x <- [1 .. n-1], (x `mod` 3 == 0) || (x `mod` 5 == 0)]
+euler1 n = sum [x | x <- [1 .. n-1], (x `mod` 3 == 0) || (x `mod` 5 == 0)]
