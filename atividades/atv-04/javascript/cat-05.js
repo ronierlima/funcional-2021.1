@@ -1,61 +1,28 @@
 let result;
 //@013 fibonacci
-const fibonacci = n => n <= 1 ? 1 : fibonacci (n - 1) + fibonacci (n - 2)
-result = fibonacci(1)
+const fibonacci = (n) => (n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2));
+result = fibonacci(1);
 
 //@018 frequencia
+const frequencia = (n) => (xs) => xs.filter((x) => n == x).length;
+result = frequencia(1)([1, 2, 4, 3, 1]);
+result;
+//@019 unico
 
-//Utilizando filter
-//frequencia n xs = length $ filter (== n) xs
+const unico = (n) => (xs) => frequencia(n)(xs) == 1;
+result = unico(1)([1, 2, 4, 3, 1]);
+result;
 
-// Utilizando compreensão de lista
-//frequencia n xs = length [x | x <- xs, n == x]
-//frequencia n xs = sum [1 | x <- xs, n == x]
+// @020 maioresQue
 
-// Utilizando recursão
-// frequencia n [] = 0
-// frequencia n (x : xs)
-//   | n == x = 1 + frequencia n xs
-//   | otherwise = frequencia n xs
+const maioresQue = (n) => (xs) => xs.filter((x) => x > n);
+result = maioresQue(1)([1, 2, 4, 3, 1]);
+result;
 
-// //Utilizando fold
-// //frequencia n = foldl igual 0
-// //  where
-// //    igual acumulador x
-// //      | x == n = acumulador + 1
-// //      | otherwise = acumulador
 
-// //@019 unico
-
-// //Utilizando filter
-// //unico n xs
-// //  | tam == 1 = True
-// //  | otherwise = False
-// //  where
-// //    tam = length $ filter (== n) xs
-
-// //Utilizando recursão
-
-// unico n xs = frequencia n xs == 1
-
-// //@020 maioresQue
-
-// //Utilizando filter
-// //maioresQue n xs = filter (>n) xs
-
-// //Utilizando CList
-// //maioresQue n xs = [x | x <- xs, x > n]
-
-// //Utilizando Recursão
-
-// maioresQue n [] = []
-// maioresQue n (x : xs)
-//   | x > n = x : maioresQue n xs
-//   | otherwise = maioresQue n xs
 
 // //@021 concatena
 
-// //Utilizando Foldr
 // --concatena xs ys = foldr (:) ys xs
 
 // //Utilizando recursão
